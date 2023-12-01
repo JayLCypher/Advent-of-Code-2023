@@ -5,7 +5,7 @@ SRC = day1.c
 OUT = day1
 
 day1: $(SRC)
-	$(CC) -o $(OUT) $(SRC) $(CVERSION) $(CFLAGS) $(LFLAGS)
+	$(CC) -o $(OUT).out $(SRC) $(CVERSION) $(CFLAGS) $(LFLAGS)
 
 clean:
-	rm -rf day1
+	rm -rf $(OUT).out
