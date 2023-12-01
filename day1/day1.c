@@ -60,27 +60,6 @@ const char *cstr_nstr(const char *restrict hay, const size_t needle_len, const c
 	return hay;
 }
 
-const char *cstr_str_delim(const char *restrict hay, const char *restrict const needle, const char *restrict const delims) {
-	assert(hay && needle && delims);
-	// Skip and check delim
-	for (; *hay != *needle; ++hay) {
-		for (const char *d = delims; *d; ++d) {
-			if (*d == *hay) { return nullptr; } }
-	}
-
-	// We need the end ptr for calcing match.
-	const char *needle_end = needle;
-	while (*needle_end++) {}
-
-	// Start match, check delim
-	for (const char *p = hay, *q = needle; *hay; ++hay) {
-		for (const char *d = delims; *d; ++d) { if (*d == *p) { return nullptr; } }
-		for (; *p == *q; ++p, ++q) {}
-		if ((*hay == *needle) && ((hay - p - 1) == (needle - needle_end - 1))) { return hay; }
-	}
-	return nullptr;
-}
-
 size_t day1_part1(const char *line) {
 	if (!*line) { return 0; }
 	size_t digits_encountered = 0;
