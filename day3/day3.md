@@ -1,3 +1,7 @@
+# [Advent of Code Day 3](https://adventofcode.com/2023/day/3) - Rust
+
+## The Task
+```txt
 --- Day 3: Gear Ratios ---
 You and the Elf eventually reach a gondola lift station; he says the gondola lift will take you up to the water source, but this is as far as he can bring you. You go inside.
 
@@ -53,3 +57,10 @@ Consider the same engine schematic again:
 In this schematic, there are two gears. The first is in the top left; it has part numbers 467 and 35, so its gear ratio is 16345. The second gear is in the lower right; its gear ratio is 451490. (The * adjacent to 617 is not a gear because it is only adjacent to one part number.) Adding up all of the gear ratios produces 467835.
 
 What is the sum of all of the gear ratios in your engine schematic?
+```
+
+## The Solution
+
+Build with Cargo, just do car go run, or cargo build -r then car go run for faster run.
+Essentially, take three lines, apply a 3x3 matrix window. for part 1, check against a static u8 array and part 2 is just *.
+Have fun!
