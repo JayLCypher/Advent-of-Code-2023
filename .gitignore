@@ -2,3 +2,5 @@
 
 */*.out
 
+# Day 3
+*/target/
