@@ -1,6 +1,43 @@
+# Other
+.DS_Store
+nix/profiles/
+
+# dkml desktop CI
+/msys64
+/.ci
+
+# vim swap files
+*.swp
+*.swo
+
+# emacs lock files
+.#*
+
+# vscode settings
+.vscode
+
+# git-ps hooks
+.git-ps
+
+# AoC
 */input.txt
 
+# C
 */*.out
+
+# Day 2 - OCaml
+_opam
+_build
+_boot
+_perf
+_coverage
+__pycache__
+*.install
+
+.duneboot.*
+Makefile.dev
+src/dune_rules/setup.ml
+result
 
 # Day 3
 */target/
