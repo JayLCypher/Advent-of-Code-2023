@@ -8,8 +8,8 @@ Enjoy!
 - Day 1 - Written in [C](https://www.iso.org/standard/74528.html). <- Success
 - Day 2 - Written in [Big OCaml](https://ocaml.org). <- Failed...
 - Day 3 - Written in [Rust](https://www.rust-lang.org). <- Success (After 2 days lmao).
-- Day 4 - Written in [Zig](https://ziglang.org).
-- Day 5 - Written in [C++](https://isocpp.org).
+- Day 4 - Written in [Zig](https://ziglang.org). <- Part 1 complete
+- Day 5 - Written in [C++](https://isocpp.org). <- Part 1 complete
 - Day 6 - Written in [D](https://dlang.org).
 - Day 7 - Written in [M$ Java / C# / DotNET (Same thing)](https://dotnet.microsoft.com/en-us/languages/csharp).
 
