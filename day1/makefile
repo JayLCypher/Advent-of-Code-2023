@@ -1,6 +1,6 @@
 
 CVERSION = -std=c2x
-CLFAGS = -c -Wall -Wextra -Wpedantic
+CFLAGS = -Wall -Wextra -Wpedantic
 SRC = day1.c
 OUT = day1
 
