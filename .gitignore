@@ -22,8 +22,9 @@ nix/profiles/
 # AoC
 */input.txt
 
-# C
-*/*.out
+# C/CPP
+*/day1
+*/day5
 
 # Day 2 - OCaml
 _opam
