@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"John"
+	],
+	"copyright": "Copyright © 2023, John",
+	"description": "Advent of Code Day 6 written in the D Language!",
+	"license": "MIT",
+	"name": "day6"
+}
