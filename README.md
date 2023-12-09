@@ -2,6 +2,8 @@
 [Advent of Code](https://adventofcode.com/2023/) is a set of coding challenges released per day of advent.
 This is my solutions for select challenges throughout December of 2023.
 
+It will also stand as a showcase of diving into several languages, many of which I had never tried before.
+
 Enjoy!
 
 ## The Plan:
