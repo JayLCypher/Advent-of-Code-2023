@@ -46,3 +46,8 @@ result
 # Day 4
 */zig-cache/
 */zig-out/
+
+# Day 7 - CSharp
+*/bin
+*/obj
+
