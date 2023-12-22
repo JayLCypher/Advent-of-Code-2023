@@ -1,4 +1,4 @@
-# [Advent of Code Day 5](https://adventofcode.com/2023/day/5) - CPP
+# [Advent of Code Day 6](https://adventofcode.com/2023/day/6) - D
 
 ## The task:
 ```txt
